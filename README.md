@@ -49,11 +49,33 @@ yarn
 ### 3. Run the development server
 
 ```bash
-npm run dev
+npm start
 ```
 
 # or
 
 ```bash
 yarn dev
+```
+
+## Troubleshooting
+
+In case of errors on building the application, try:
+
+Remove the .next build if exists:
+
+```bash
+rm -rf .next
+```
+
+Build the project again:
+
+```bash
+npm run build
+```
+
+And then, start the project:
+
+```bash
+npm start
 ```
