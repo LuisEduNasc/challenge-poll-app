@@ -4,6 +4,7 @@ export type Question = {
 export type Answer = {
   text: string;
   votes: number;
+  selected?: boolean;
 };
 export type QandA = {
   question: Question;

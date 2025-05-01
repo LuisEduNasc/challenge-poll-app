@@ -4,12 +4,16 @@ import GlobalStyles from '@/styles/GlobalStyles';
 import questions from '@/data/questions.json';
 import { Poll } from '@/components/poll';
 
-const IndexPage = styled.div``;
+const IndexPage = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
 
 export default () => (
   <IndexPage>
     <GlobalStyles />
-    <h1>Decode React Poll Challenge</h1>
+    <h1>Poll Challenge</h1>
     <p>
       Here is some text that is on the page in a paragraph tag. The poll will appear within this
       context below.

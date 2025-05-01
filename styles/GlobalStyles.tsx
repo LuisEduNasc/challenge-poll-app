@@ -11,8 +11,8 @@ export default createGlobalStyle`
 
   body {
     max-width: 720px;
-    margin-right: auto;
-    margin-left: auto;
+    min-height: 100dvh;
+    margin: 0 auto;
     padding: 1em;
     color: #030C30;
   }
