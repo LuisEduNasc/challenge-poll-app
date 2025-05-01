@@ -4,7 +4,7 @@
 
 This app allows users to answer multiple-choice questions and view live voting results in an interactive, visually appealing UI — like the example below:
 
-![Poll Screenshot](./path/to/Screenshot%202025-05-01%20at%2008.21.53.png)
+![Poll Screenshot](./public/img/challenge-poll-layout.png)
 
 ---
 
